@@ -1,0 +1,47 @@
+
+.container {
+    /* width: 1200px !important; */
+    margin: 0 auto !important; 
+}
+
+#slide-01 img {
+    /* width: 1077px !important;
+    height: 230px !important; */
+    width: 85%;
+    font-size: 0 !important;
+}
+
+#slide-01 .title {
+    /* width: 1077px !important;
+    height: 230px !important;  */
+    position: relative;
+    text-align: center;
+    font-size: 0 !important;
+}
+
+#slide-01 .play-btn {
+    display: block;
+    background: url('../images/01/play.png');
+    width: 200px;
+    height: 200px;
+    background-size:contain;
+    position: absolute !important;
+    right: -0px;
+    top :-100px;
+}
+
+.f2 {
+    position:absolute;
+    left: 100px;
+    top: -80px;
+    z-index: 10;
+    transform: scale(0.8)
+} 
+
+.f1 {
+    position:absolute;
+    left: 200px;
+    top: -60px;
+    z-index: 100;
+    transform: scale(0.8)
+} 
