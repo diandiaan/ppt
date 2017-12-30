@@ -29,6 +29,9 @@
     right: -200px;
     top :-100px;
 }
+.controls-arrow {
+    color: #fff;
+}
 
 .f2 {
     position:absolute;
