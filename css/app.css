@@ -49,6 +49,13 @@
     /* transform: scale(0.8) */
 } 
 
+.f3{
+    width:1000px;
+    height:500px;
+    position: absolute !important;
+    z-index: 1;
+}
+
 .delay1 {
     animation-delay: 1s
 }
@@ -72,4 +79,57 @@
 
 .delay6 {
     animation-delay: 6s
+}
+
+.yesCase{
+    width: 410px;
+    height:410px;
+    background:url("../images/02/ 4.png");
+    display:inline-block;
+    position: absolute !important;
+    left: -382px;
+    bottom: -698px;
+}
+
+.yesCaseOne{
+    width:359px;
+    height:359px;
+    background:url("../images/02/3.png");
+    position: absolute !important;
+    right:-400px;
+    top:-160px;
+}
+
+.twoPosition{
+    position: absolute;
+    top: 221px;
+}
+
+.fb1,.fb2,.fb3{
+    display:none;
+}
+
+.fb1{
+    width:895px;
+    height:297px;
+    position: absolute;
+    bottom: -605px;
+    left: 220px;
+}
+
+.fb2{
+    width:764px;
+    height:227px;
+    position: absolute;
+    bottom: -402px;
+    left: 186px;
+}
+
+.fb3{
+    width:745px;
+    height:196px;
+    position: absolute;
+    z-index: 9999;
+    bottom: -302px;
+    left: 154px;
 }

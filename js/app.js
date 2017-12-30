@@ -153,3 +153,21 @@ function toggleAnimation(el, add = true) {
     } 
 }
 
+$('.f2').mousemove(function(){
+	$('.fb2').css('display','block');
+});
+$('.f2').mouseleave(function(){
+	$('.fb2').css('display','none');
+});
+$('.f1').mousemove(function(){
+	$('.fb3').css('display','block');
+});
+$('.f1').mouseleave(function(){
+	$('.fb3').css('display','none');
+});
+$('.f3').mousemove(function(){
+	$('.fb1').css('display','block');
+});
+$('.f3').mouseleave(function(){
+	$('.fb1').css('display','none');
+});

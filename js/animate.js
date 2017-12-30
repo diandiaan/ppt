@@ -13,9 +13,16 @@ export const config =  [
     {
         name: 'f2',
         cls: 'animated fadeIn delay1'
-    }
-
-        //第二页动画
+    },
+      {
+        name:'yesCase',
+        cls:'animated infinite pulse'
+      },
+      {
+        name:'yesCaseOne',
+        cls:'animated infinite pulse'
+      },
+       //第二页动画
     ], [
         //第三页动画
     ]
