@@ -48,3 +48,28 @@
     z-index: 100;
     transform: scale(0.8)
 } 
+
+.delay1 {
+    animation-delay: 1s
+}
+
+.delay2 {
+    animation-delay: 2s
+}
+
+
+.delay3 {
+    animation-delay: 3s
+}
+
+.delay4 {
+    animation-delay: 4s
+}
+
+.delay5 {
+    animation-delay: 5s
+}
+
+.delay6 {
+    animation-delay: 6s
+}
